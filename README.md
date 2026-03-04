@@ -1,10 +1,10 @@
-# 🥛 Dairy Mart - Ecommerce Platform
+#  Dairy Mart - Ecommerce Platform
 
 A modern, full-stack ecommerce platform for dairy products built with Django REST Framework and React.js. Features complete CRUD operations, user authentication, shopping cart, order management, and a comprehensive staff dashboard.
 
-## 🌟 Features
+##  Features
 
-### 👥 Customer Features
+###  Customer Features
 - **User Authentication**: Register, login, profile management
 - **Product Browsing**: Browse dairy products by categories with advanced filters
 - **Search & Filter**: Full-text search, sort by price/rating, filter by category
@@ -14,7 +14,7 @@ A modern, full-stack ecommerce platform for dairy products built with Django RES
 - **Product Reviews**: Rate and review products with ratings
 - **Responsive Design**: Mobile-friendly interface using Bootstrap 5
 
-### 👨‍💼 Staff/Admin Features
+###  Staff/Admin Features
 - **Staff Dashboard**: Comprehensive admin dashboard with statistics
 - **Product Management**: Complete CRUD operations for products
 - **Order Management**: View all orders, update order status
@@ -22,7 +22,7 @@ A modern, full-stack ecommerce platform for dairy products built with Django RES
 - **Category Management**: Create and manage product categories
 - **Stock Management**: Track and manage product inventory
 
-### 🔐 Security Features
+###  Security Features
 - JWT token-based authentication
 - CORS headers configured for security
 - Password hashing with Django's built-in system
@@ -50,7 +50,7 @@ Zustand for state management
 React Icons
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -103,7 +103,7 @@ npm start
 
 **Frontend ready at:** `http://localhost:3000`
 
-## 🔐 Demo Credentials
+##  Demo Credentials
 
 ### Customer Account
 - **Username:** `customer`
@@ -154,7 +154,7 @@ npm start
 - `GET /api/dashboard/stats/` - Get dashboard statistics
 - `GET /api/dashboard/orders/` - Get all orders
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Dairy Ecommerce/
@@ -267,56 +267,7 @@ npm test                                 # Run tests
 npm test -- --coverage                  # With coverage
 ```
 
-## 📦 Building for Production
 
-### Backend
-```bash
-cd backend
-pip install gunicorn
-gunicorn dairy_ecom.wsgi:application --bind 0.0.0.0:8000
-```
-
-### Frontend
-```bash
-cd frontend
-npm run build
-# Distributable files in /build folder
-```
-
-## 🌐 Deployment
-
-### Deploy Backend to Heroku
-```bash
-cd backend
-heroku create your-app-name
-heroku config:set DISABLE_COLLECTSTATIC=1
-git push heroku main
-```
-
-### Deploy Frontend to Netlify
-```bash
-cd frontend
-npm run build
-netlify deploy --prod --dir=build
-```
-
-## 🛠️ Customization
-
-### Change Product Categories
-1. Edit seed_data.py
-2. Run `python seed_data.py`
-
-### Customize Colors
-Edit frontend CSS files:
-- `src/index.css`
-- `src/pages/Home.css`
-- `src/components/Navbar.css`
-
-### Add Custom Fields
-1. Edit `app/models.py`
-2. Create migration: `python manage.py makemigrations`
-3. Apply migration: `python manage.py migrate`
-4. Update serializers in `app/serializers.py`
 
 ## 🐛 Troubleshooting
 
@@ -329,7 +280,7 @@ Edit frontend CSS files:
 | Module not found | `pip install -r requirements.txt` |
 | npm install fails | `npm install --legacy-peer-deps` |
 
-## 📚 Additional Resources
+##  Additional Resources
 
 - [Django Documentation](https://docs.djangoproject.com)
 - [Django REST Framework Docs](https://www.django-rest-framework.org)
@@ -337,15 +288,9 @@ Edit frontend CSS files:
 - [Bootstrap 5 Docs](https://getbootstrap.com)
 - [JWT Documentation](https://django-rest-framework-simplejwt.readthedocs.io)
 
-## 📝 License
 
-MIT License - Open source and free to use for educational and commercial purposes.
 
-## 🤝 Support
-
-Found a bug or have a question? Open an issue in the repository.
-
-## 🎉 Key Accomplishments
+##  Key Accomplishments
 
 ✅ Full-stack ecommerce application  
 ✅ Complete user authentication system  
@@ -360,6 +305,3 @@ Found a bug or have a question? Open an issue in the repository.
 
 ---
 
-**Happy Building!** 🚀
-
-Built with ♥️ for learning and demonstration purposes.
