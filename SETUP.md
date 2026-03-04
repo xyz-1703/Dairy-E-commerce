@@ -1,4 +1,4 @@
-# 📋 SETUP INSTRUCTIONS - Dairy Mart Ecommerce
+# SETUP INSTRUCTIONS - Dairy Mart Ecommerce
 
 Complete step-by-step guide to get the Dairy Mart application running locally.
 
@@ -12,13 +12,11 @@ Complete step-by-step guide to get the Dairy Mart application running locally.
 
 ## Installation Steps
 
-### ✅ Step 1: Backend Setup (Django)
+### Step 1: Backend Setup (Django)
 
 #### 1a. Open PowerShell/Terminal
 Navigate to the backend directory:
-```powershell
-cd \"C:\Users\Girija Zirange\OneDrive\Desktop\GenAI@Bizmetric\New folder\backend\"
-```
+
 
 #### 1b. Create Python Virtual Environment
 ```powershell
@@ -90,13 +88,11 @@ Keep this terminal/PowerShell window open!
 
 ---
 
-### ✅ Step 2: Frontend Setup (React)
+### Step 2: Frontend Setup (React)
 
 #### 2a. Open New Terminal/PowerShell Window
 Navigate to frontend:
-```powershell
-cd \"C:\Users\Girija Zirange\OneDrive\Desktop\GenAI@Bizmetric\New folder\frontend\"
-```
+
 
 #### 2b. Install Node Dependencies
 ```powershell
@@ -127,7 +123,7 @@ The browser will automatically open http://localhost:3000
 
 ---
 
-## ✨ Access the Application
+## Access the Application
 
 After both servers are running:
 
@@ -140,7 +136,7 @@ After both servers are running:
 
 ---
 
-## 🔑 Test Login
+##  Test Login
 
 ### 1. Login as Customer
 1. Click \"Login\" in the navbar
@@ -168,7 +164,7 @@ After both servers are running:
 
 ---
 
-## 📋 Verification Checklist
+##  Verification Checklist
 
 After setup, verify:
 
@@ -185,7 +181,7 @@ After setup, verify:
 
 ---
 
-## 🔧 Common Issues & Fixes
+##  Common Issues & Fixes
 
 ### Issue 1: Python Command Not Found
 ```
@@ -275,7 +271,7 @@ python manage.py migrate
 
 ---
 
-## 📱 Testing Features
+## Testing Features
 
 ### Customer Workflow
 1. **Browse**: Products page shows all dairy items
@@ -294,7 +290,7 @@ python manage.py migrate
 
 ---
 
-## 🗄️ Database
+## Database
 
 ### View Data in Admin
 1. Go to http://localhost:8000/admin/
@@ -315,7 +311,7 @@ python seed_data.py
 
 ---
 
-## 📊 Default Sample Data
+## Default Sample Data
 
 ### Categories (6 total)
 - Fresh Milk
@@ -338,7 +334,7 @@ python seed_data.py
 
 ---
 
-## 🚀 Running Servers in Background
+##  Running Servers in Background
 
 ### Using Docker (Optional)
 ```bash
@@ -358,7 +354,7 @@ screen -S react npm start
 
 ---
 
-## 📚 Next Steps
+##  Next Steps
 
 After successful setup:
 
@@ -386,7 +382,7 @@ After successful setup:
 
 ---
 
-## 🆘 Need Help?
+##  Need Help?
 
 ### Check These First:
 1. Are both terminal windows still open?
@@ -404,7 +400,7 @@ After successful setup:
 
 ---
 
-## 📞 Support
+##  Support
 
 For detailed issues:
 1. Check README.md in project root
