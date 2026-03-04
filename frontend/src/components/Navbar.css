@@ -1,0 +1,30 @@
+.navbar-light {
+  background-color: #ffffff !important;
+}
+
+.navbar-brand {
+  padding: 0.5rem 0;
+}
+
+.nav-link {
+  margin-left: 10px !important;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #28a745 !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.form-control-sm {
+  border-radius: 20px;
+  padding: 0.4rem 0.75rem;
+}
+
+.btn-outline-success {
+  border-radius: 20px;
+  padding: 0.4rem 0.75rem;
+}

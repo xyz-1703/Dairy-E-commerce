@@ -1,0 +1,47 @@
+.subscriptions-header {
+  padding: 20px 0 30px;
+  border-bottom: 2px solid var(--bs-light);
+}
+
+.subscription-card {
+  border: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.subscription-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.plan-details {
+  background: var(--bs-light);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.discount-section {
+  text-align: center;
+}
+
+.discount-section h4 {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.benefit-item {
+  padding: 15px;
+  background: var(--bs-light);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.benefit-item h5 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.benefit-item p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: var(--bs-secondary);
+}
